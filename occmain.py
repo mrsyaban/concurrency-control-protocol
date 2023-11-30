@@ -1,5 +1,11 @@
+print("Optimistic Concurrency Control\n")
+print("=="*15)
+filename=str(input("Input nama file: "))
+
 # baca file
-filename = "test.txt"
+if not filename:
+    filename = "test.txt"
+
 file = open(filename, "r")
 
 # parse file jadi records
