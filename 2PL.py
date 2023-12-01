@@ -1,6 +1,4 @@
 import re
-import sys
-import time
 
 class Operation():
     def __init__(self, transaction, action, resource):
