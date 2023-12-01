@@ -276,28 +276,9 @@ class TwoPhaseLocking():
 
 if __name__ == '__main__':
     TwoPL = TwoPhaseLocking()
-    # print('History with no conflicts')
-    # scheduler.execute('r1(x); r2(y);r1(y);c1;w2(x);c2')
-    # print('History with an operation that needs to be wait')
-    # TwoPL.execute('R1(X);W1(X);W2(X);c1;c2')
     input = input("Enter input operations string (delimitter with ;): ")
     TwoPL.execute(input)
-    # print('Example 2')
-    # TwoPL.execute('R1(X);W2(Y);R1(Y);W2(X);c1;c2')
-    # print('History with an operation that can\'t be executed')
-    # TwoPL.execute('R1(X); R2(Y); R1(Y); C1; R1(X); W2(X); C2')
-    # # print('Example 1')
-    # TwoPL.execute('R1(X);W1(X);W2(X);R2(Y);W2(Y);C1;C2')
-    # print('Sample 1')
-    # TwoPL.execute('R1(X); W2(X); W2(Y); W3(Y); W1(X); C1; C2; C3')
-    # print('Sample 2')
-    # TwoPL.execute('R1(X); R2(Y); R1(Y); W2(Y); W1(X); C1; C2')
-    # print('Sample 3')
-    # TwoPL.execute('R1(X); R2(Y); R1(Y); R2(X); C1; C2')
-    # print('Sample 4')
-    # TwoPL.execute('R1(X); W2(Y); W2(X); W3(Y); W1(Y); C1; C2; C3')
-    # print('History with more than one operation that has to be delayed')
-    # TwoPL.execute('R1(X);W1(X);W2(X);R2(Y);W2(Y);C1;C2')
+
 
     
     
