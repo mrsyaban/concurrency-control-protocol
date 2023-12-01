@@ -47,3 +47,11 @@ This repository is a project for simulations of database concurrency control in 
    C1
    C2
    ```
+
+## Authors
+| NIM      | Nama                       |
+| -------- | ---------------------------|
+| 13521061 | Alex Sander                |
+| 13521119 | Muhammad Rizky Sya'ban     | 
+| 13521145 | Kenneth Dave Bahana        |
+| 13521171 | Alisha Listya Wardhani     |
