@@ -1,5 +1,7 @@
 # Concurrency Control Protocol
 
+> This projects is made to fulfill Tubes IF3140 Manajemen dan Basis Data 
+
 ## Description
 
 This repository is a project for simulations of database concurrency control in Python language. The protocols implemented in this project are Two-Phase Locking Protocol and Optimistic Concurrency Control.
